@@ -27,9 +27,9 @@ restore_error_handler();
 function mysqli_warning_handler($no, $str){
     
     http_response_code(500);
-    //barresi shavad
+    
     exit();
-    //inja bayad ghat she ke nare jolotar error tolid kone
+    
 }
 
 
