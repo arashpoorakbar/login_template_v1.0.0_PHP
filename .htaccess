@@ -1,0 +1,32 @@
+
+
+
+Options +SymLinksIfOwnerMatch
+
+#These rewrite rules could be easily substituted with a RegEx.
+#However, for clarity each url is giver a seperate rewrite rule here. 
+
+
+RewriteEngine on 
+RewriteRule ^index$ index.php [NC]
+
+RewriteEngine on 
+RewriteRule ^login$ login.php [NC]
+
+RewriteEngine on 
+RewriteRule ^signup$ signup.php [NC]
+
+RewriteEngine on 
+RewriteRule ^dashboard$ dashboard.php [NC]
+
+RewriteEngine on 
+RewriteRule ^admindashboard$ admindashboard.php [NC]
+
+RewriteEngine on 
+RewriteRule ^users\/(.*) users.php/$1 [NC]
+
+RewriteEngine on 
+RewriteRule ^verification$ verification.php [NC]
+
+
+

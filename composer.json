@@ -1,0 +1,19 @@
+{
+    "name": "arashpoorakbar/www",
+    "autoload": {
+        "psr-4": {
+            "Arashpoorakbar\\Www\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arash Poorakbar",
+            "email": "arash.poorakbar@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/mailer": "^6.0",
+        "symfony/google-mailer": "^6.0",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
